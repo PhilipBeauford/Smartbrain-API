@@ -24,6 +24,7 @@ const db = knex({
 
 app.use(bodyParser.json());
 app.use(cors());
+
 app.get('/', (req, res) => { res.send('it is working!') });
 
 //Main body
